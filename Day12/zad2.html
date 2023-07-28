@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            display: inline-block;
+            padding: 20px 60px 20px 100px;
+            text-align: center;
+            background-color: aqua;
+            font-size: 36px;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            background-repeat: no-repeat;
+            background-position: 15px 10px;
+        }
+        .first {
+            background-image: url(img/emoticon1.png);
+        }
+        .second {
+            background-image: url(img/emoticons.png);
+            background-position: 15px 5px;
+        }
+        a.first:hover {
+            background-image: url(img/emoticon2.png);
+        }
+        a.second:hover {
+            background-position: 15px -74px;
+        }
+
+    </style>
+</head>
+<body>
+    <a class="first" href="#">Przycisk</a>
+    <a class="second" href="#">Przycisk</a>
+</body>
+</html>

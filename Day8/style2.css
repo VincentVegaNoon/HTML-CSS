@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+div.wrap {
+    max-width: 1400px;
+    min-width: 840px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+}
+
+a {
+    color: black;
+    margin: 0 1vw;
+    font-size: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+a.btn4 {
+    border: 2px solid black;
+    margin-left: 6vw;
+}
+
+a.btn4:hover {
+    color: white;
+    background-color: #5370E0;
+    border: 0;
+}
+
+a:hover {
+    border-bottom: 2px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: bisque;
+    background-image: url(jpgs/mechanic.jpg);
+    background-position: center;
+    background-size: cover;
+    /* filter: grayscale(80%); */
+}
+h1 {
+    width: 100%;
+    line-height: 35vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    background-color: white;
+}
+h2 {
+    text-align: center;
+}
+.block {
+    align-self: flex-start;
+    width: 25vh;
+    height: 15vh;
+    margin: 0 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: blueviolet;
+}
+p {
+    position: relative;
+    top: 110%;
+    font-weight: bold;
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    line-height: 5vh;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
